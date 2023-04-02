@@ -1,0 +1,56 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.anni.screenshot"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:5:5-79
+11-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:6:5-80
+12-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:6:22-78
+13
+14    <application
+14-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:8:5-23:19
+15        android:allowBackup="true"
+15-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:10:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.1] C:\Users\Pratik Tikande.Pratik\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:11:9-43
+19        android:label="@string/app_name"
+19-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:12:9-41
+20        android:requestLegacyExternalStorage="true"
+20-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:9:9-52
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:15:9-40
+25        <activity android:name="com.anni.screenshot.MainActivity" >
+25-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:16:9-22:20
+25-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:16:19-47
+26            <intent-filter>
+26-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:18:17-69
+27-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:20:17-77
+29-->D:\CaptureScreenshot\app\src\main\AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32    </application>
+33
+34</manifest>
